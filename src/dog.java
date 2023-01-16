@@ -4,6 +4,6 @@ public class dog {
     Double wek;
 
     String getDog(){
-        return " Имя собаки--> "+ name+" Порода собаки --> " +" Вес собаки --> "+wek;
+        return "Имя собаки--> "+ name+"\nПорода собаки --> " +deep+"\nВес собаки --> "+wek;
     }
 }
