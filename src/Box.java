@@ -8,4 +8,9 @@ public class Box {
 
     }
 
+    void showVolume(){
+        System.out.println(getVolume());
+
+    }
+
 }

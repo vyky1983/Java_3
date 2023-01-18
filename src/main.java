@@ -1,36 +1,33 @@
 public class main {
     public static void main(String[] args) {
 
-        Dog bil=new Dog();
-        bil.name="Bill";
-        bil.breed="rottweiler";
-        bil.weight=25.6;
-        System.out.println(bil.getInfo());
+//        Dog bil=new Dog();
+//        bil.name="Bill";
+//        bil.breed="rottweiler";
+//        bil.weight=25.6;
+//        System.out.println(bil.getInfo());
 
-//        Box box1 = new Box();
-//        box1.height = 10;
-//        box1.length = 10;
-//        box1.width = 10;
-//
-//        Box box2 = new Box();
-//        box2.height = 20;
-//        box2.length = 20;
-//        box2.width = 20;
-//
-//        Box box3= new Box();
-//        box3.width=25;
-//        box3.length=15;
-//        box3.height=69;
-//
-//
-//        double volume = box1.getVolume();
-//        System.out.println(volume);
-//
-//        double volume2 = box2.getVolume();
-//        System.out.println(volume2);
-//
-//        double volume3=box3.getVolume();
-//        System.out.println(volume3);
+        Box box1 = new Box();
+        box1.height = 10;
+        box1.length = 10;
+        box1.width = 10;
+
+        Box box2 = new Box();
+        box2.height = 20;
+        box2.length = 20;
+        box2.width = 20;
+
+        Box box3= new Box();
+        box3.width=25;
+        box3.length=15;
+        box3.height=69;
+
+
+        box1.showVolume();
+        box2.showVolume();
+        box3.showVolume();
+
+
 
 //        Person alex1 = new Person();
 //        Person vyky = new Person();
