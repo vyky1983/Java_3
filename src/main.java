@@ -71,8 +71,6 @@ public class main {
 //        box1.height=6;
 //        box1.length=15;
 //        box1.width=69;
-//
-//
 //        System.out.println(box1.getBox1());
 
         Dog1 dog1 =new Dog1();
@@ -90,12 +88,17 @@ public class main {
         dog3.breed="Affcharka";
         dog3.weight=35;
 
+        Dog1 dog4=new Dog1();
+        dog4.speed=10;
 
         System.out.println(dog1.getDog1());
         System.out.println();
         System.out.println(dog2.getDog1());
         System.out.println();
         System.out.println(dog3.getDog1());
+        System.out.println();
+        System.out.println(dog4.ranDog1());
+        dog4.ran1Dog1();
     }
 
 }
