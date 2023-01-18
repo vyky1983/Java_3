@@ -6,27 +6,30 @@ public class main {
 //        bil.breed="rottweiler";
 //        bil.weight=25.6;
 //        System.out.println(bil.getInfo());
-
-//        Box box1 = new Box();
+//
+        Box box1 = new Box();
+        box1.setDimens(30,30,30 );
 //        box1.height = 10;
 //        box1.length = 10;
 //        box1.width = 10;
 //
-//        Box box2 = new Box();
+        Box box2 = new Box();
+        box2.setDimens(20,20,20);
 //        box2.height = 20;
 //        box2.length = 20;
 //        box2.width = 20;
-//
-//        Box box3= new Box();
+
+        Box box3= new Box();
+        box3.setDimens(10,10,10);
 //        box3.width=25;
 //        box3.length=15;
 //        box3.height=69;
-//
-//
-//
-//        box1.showVolume();
-//        box2.showVolume();
-//        box3.showVolume();
+
+
+
+        box1.showVolume();
+        box2.showVolume();
+        box3.showVolume();
 
 
 
@@ -73,32 +76,34 @@ public class main {
 //        box1.width=69;
 //        System.out.println(box1.getBox1());
 
-        Dog1 dog1 =new Dog1();
-        dog1.name=" Шарик ";
-        dog1.breed=" Такса ";
-        dog1.weight=12;
-
-        Dog1 dog2= new Dog1();
-        dog2.name="Dik";
-        dog2.breed="doberman";
-        dog2.weight=15;
-
-        Dog1 dog3=new Dog1();
-        dog3.name="Bill";
-        dog3.breed="Affcharka";
-        dog3.weight=35;
-
-        Dog1 dog4=new Dog1();
-        dog4.speed=10;
-
-        System.out.println(dog1.getDog1());
-        System.out.println();
-        System.out.println(dog2.getDog1());
-        System.out.println();
-        System.out.println(dog3.getDog1());
-        System.out.println();
-        System.out.println(dog4.ranDog1());
-        dog4.ran1Dog1();
+//        Dog1 dog1 =new Dog1();
+//        dog1.name=" Шарик ";
+//        dog1.breed=" Такса ";
+//        dog1.weight=12;
+//
+//        Dog1 dog2= new Dog1();
+//        dog2.name="Dik";
+//        dog2.breed="doberman";
+//        dog2.weight=15;
+//
+//        Dog1 dog3=new Dog1();
+//        dog3.name="Bill";
+//        dog3.breed="Affcharka";
+//        dog3.weight=35;
+//
+//        Dog1 dog4=new Dog1();
+//        dog4.speed=10;
+//
+//        System.out.println(dog1.getDog1());
+//        System.out.println();
+//        System.out.println(dog2.getDog1());
+//        System.out.println();
+//        System.out.println(dog3.getDog1());
+//        System.out.println();
+//        System.out.println(dog4.ranDog1());
+//        dog4.ran1Dog1();
+//        Test test =new Test();
+//        System.out.println(test.sqr(40));
     }
 
 }
